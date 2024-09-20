@@ -1,0 +1,155 @@
+@font-face {
+	font-family: 'Sverdlovsk';
+	src: url('../fonts/sverdlovsk.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sverdlovsk.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sverdlovsk.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sverdlovsk.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sverdlovsk.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sverdlovsk.svg#sverdlovsk') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    margin: 0;
+    background-color: #DEDEDE;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header {
+    background-color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+/*
+.button {
+    float: right;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 2px; 
+}
+*/
+
+main {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+main h1 {
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+main h2 {
+    font-size: 128px;
+    font-weight: normal;
+    margin: 0;
+    font-family: 'Sverdlovsk';
+}
+
+.foto {
+    height: 860px;
+    background-image: url(../images/foto1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.home {
+    height: 480px;
+    padding-left: 150px;
+    padding-right: 100px;
+    margin-top: 300px;
+}
+
+.about {
+    background-image: url(../images/fon1.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 810px;
+}
+
+.border-page {
+    padding-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about h2 {
+    color: white;
+}
+
+.about p {
+    color: white;
+}
+
+.info-about {
+    display: flex;
+    justify-content: center; /*Выравнивание по горизонтали */
+}
+
+.border-text {
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+.skills p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    border: 1px solid black; 
+    margin: 40px auto;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+th {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.border-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+
